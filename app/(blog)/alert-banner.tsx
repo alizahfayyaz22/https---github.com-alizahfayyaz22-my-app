@@ -26,7 +26,8 @@ export default function AlertBanner() {
       } fixed top-0 left-0 z-50 w-full border-b bg-white/95 text-black backdrop-blur`}
     >
       <div className="py-2 text-center text-sm">
-        {pending ? (
+        BLOGS
+        {/* {pending ? (
           "Disabling draft mode..."
         ) : (
           <>
@@ -45,7 +46,7 @@ export default function AlertBanner() {
               Back to published
             </button>
           </>
-        )}
+        )} */}
       </div>
     </div>
   );
